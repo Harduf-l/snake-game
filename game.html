@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snake game</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body id="gameBody">
+
+    <header>
+        <div class="headerGame">
+            <span id="scoreDisplay">Score: </span><span id="score">0</span>
+        </div>
+       <div class="headerGame" id="mainHeader">
+        <img id="logo" src="Jakarta_Icon.png"/>
+        <h1>PYTHONS</h1>
+       </div>
+       <div class="headerGame">
+        <p id="display">Time: <span id="timer">00:00:00 </span> </p>
+       </div>
+    </header>
+
+        <canvas id="canvas"  width="800" height="600">
+        </canvas>
+
+        <div id="totalmodal">
+            <p id="displayGameOver"> Game Over</p>
+            <br>
+            <div id="table_div"></div>
+        </div>
+
+        <button id="rewind_btn">Rewind</button>
+        <button id="home_btn">HomePage</button>
+
+        
+    <script src="script2.js"></script>
+</body>
+</html>

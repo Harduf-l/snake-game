@@ -1,0 +1,165 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    margin: 0; 
+}
+
+body {
+    background-color: #1e272e;
+
+}
+
+header {
+    margin: 0 auto; 
+    width: 50%; 
+    color: white; 
+    margin-top: 15px; 
+
+}
+
+#headerSpan p {
+    display: inline; 
+}
+
+#logo {
+width: 40px; 
+padding-left: px; 
+
+}
+
+header h1 {
+    display: inline-block;
+    color: white; 
+    text-align: right; 
+    position: realtive; 
+
+}
+
+.headerGame{
+    display: inline-block; 
+    width: 30%; 
+}
+
+#timer{
+    text-align: right; 
+    width: 300px; 
+}
+
+
+
+#score{
+  margin-left: -50px; 
+}
+
+#display{
+    margin-left: 92%; 
+    width: 150px; 
+}
+
+#scoreDisplay{
+position: relative;
+right: 53px; 
+}
+
+#rewind_btn{
+    background-color: #ff3f34; 
+    border: none; 
+    padding: 15px 0px; 
+    color: white; 
+    width: 170px; 
+    border-radius: 30px; 
+    font-size: 22px;
+    font-weight: bold; 
+   position: relative; 
+   top: 60px; 
+   right: 500px; 
+    margin-top: 2%; 
+    outline: none; 
+
+}
+
+canvas {
+    position: relative; 
+    left: 20.5%; 
+}
+
+
+#mainHeader{
+    margin-left: 20px; 
+}
+
+#displayGameOver {
+    color: #bb0000;
+    font-size: 80px; 
+    font-weight: bold; 
+    z-index: 500; 
+}
+
+
+#totalmodal{
+    position: absolute; 
+    top: 50px; 
+    left: 450px; 
+    visibility: hidden; 
+    z-index: 500;
+    width: 500px; 
+}
+
+.textGameOver{
+    background-color: rgb(77,77,77, 0.8);
+    color: white; 
+    font-size: 20px; 
+    margin: 5px; 
+    position: relative; 
+    top: -100px; 
+    left: -20px; 
+    border-radius: 20px; 
+    padding: 20px; 
+    border: 3px rgb(77,77,77); 
+    z-index: 500; 
+   
+}
+
+#table_div {
+    font-size: 20px; 
+    margin: 5px; 
+    
+    position: relative; 
+    left: 40px; 
+    width: 400px; 
+    z-index: 500; 
+}
+
+td {
+
+    text-align: center; 
+    font-size: 18px; 
+
+
+}
+
+th {
+    color: #cee974;
+    text-align: center; 
+    font-size: 24px; 
+    padding: 10px; 
+
+}
+
+#home_btn{
+    background-color: rgb(221,148,49); 
+    border: none; 
+    padding: 15px 0px; 
+    color: white; 
+    width: 170px; 
+    border-radius: 30px; 
+    font-size: 22px;
+    font-weight: bold; 
+   position: relative; 
+   top: 60px; 
+   right: 90px; 
+    margin-top: 2%; 
+    outline: none; 
+}

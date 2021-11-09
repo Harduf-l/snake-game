@@ -1,0 +1,110 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    margin: 0; 
+}
+
+body {
+    background-color: #1e272e;
+
+}
+#bigdiv{
+    background-color: #1e272e;
+    height: 100%; 
+    
+
+}
+
+#centerDiv{
+    width: 70%; 
+    margin: 0 auto;
+    text-align: center; 
+}
+
+#logo {
+    width: 50px; 
+    padding-top: 50px; 
+    padding-bottom: 10px; 
+    display: inline-block; 
+
+}
+
+#headerHome {
+    color: white; 
+    font-size: 50px; 
+    margin-top: -7px;
+    margin-bottom: -10px; 
+    font-weight: bold;  
+}
+
+#instructionsDiv{
+    height: 400px;
+    width: 800px; 
+    background-color: #8f9397; 
+    border-radius: 20px; 
+    margin: 0 auto;
+    text-align: left; 
+    
+}
+
+#instructionsDiv p {
+    margin-left: 20px; 
+    font-weight: bold; 
+    padding-top: 20px; 
+    color: #434340; 
+}
+
+#instructionsDiv header {
+    background-color: #b1b4b6; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 60px; 
+}
+
+
+#miniHeader{
+    color: black; 
+    font-weight: bold;
+}
+
+#miniHeaderP{
+    margin-bottom: -40px; 
+}
+
+
+
+#nameEntered{
+    width: 83%; 
+    border-radius: 10px; 
+    height: 50px; 
+    border: none; 
+    margin-left: 15px; 
+    margin-top: 14px; 
+    font-size: 16px; 
+    
+}
+
+#gameStartedButton{
+    background-color: #0069d9;
+    color: white; 
+    border: none; 
+    height: 50px; 
+    margin-left: 10px; 
+    font-size: 14px; 
+    cursor: pointer;
+}
+
+
+
+.secondPageHeader{
+    color: white; 
+    display: inline; 
+    width: 100%; 
+    background-color: purple; 
+}
+
+content p{
+    margin-top: -10px; 
+}
