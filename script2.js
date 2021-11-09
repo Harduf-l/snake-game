@@ -1,5 +1,5 @@
 
-window.scrollTo(0, 100);
+window.scrollTo(0, 60);
 
 var startTime;
 var elapsedTime; 
@@ -222,7 +222,7 @@ function timeToString(time) {
           snake.arr[i]=prev;
           prev=temp;
 
-          contex.fillStyle ="#59311e";
+          contex.fillStyle ="#bd7b22";
           contex.fillRect(snake.arr[i][0],snake.arr[i][1],20,20);
       }
 
