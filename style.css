@@ -40,12 +40,12 @@ body {
 }
 
 #instructionsDiv{
-    height: 400px;
-    width: 800px; 
     background-color: #8f9397; 
     border-radius: 20px; 
     margin: 0 auto;
+    margin-top: 30px; 
     text-align: left; 
+    padding-bottom: 10px; 
     
 }
 
